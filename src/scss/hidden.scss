@@ -1,0 +1,23 @@
+.context-główna .right-row .hidden {
+    width: 554px;
+    height: 414.59px;
+    position: absolute;
+    border-radius: 1rem;
+    color: transparent;
+    font-size: large;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    transition: .9s;
+    p {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 4rem;
+    }
+    &:hover {
+        transition: 1.3s;
+        display: block;
+        color: rgb(255, 255, 255);
+        background-image: radial-gradient( hsla(0, 0%, 1%, 0.283), hsla(0, 0%, 0%, 0.676));
+        backdrop-filter: blur(2px);
+    }
+}

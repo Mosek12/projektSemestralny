@@ -1,0 +1,27 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background-image: linear-gradient(hsl(0, 1%, 19%), hsla(0, 1%, 19%, 0.689));
+    font-family: 'DM Mono', monospace;
+    .głowna {
+        font-weight: 500;
+        font-size: larger;
+    }
+    a {
+        font-size: large;
+        text-decoration: none;
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 25px 19px;
+        transition: .3s;
+        &:hover {
+            background-color: hsl(210, 14%, 53%);
+            transition: .3s;
+        }
+    }
+}
