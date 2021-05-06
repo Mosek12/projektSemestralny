@@ -1,14 +1,27 @@
 @media screen and (max-width: 1200px) {
-    .context-główna .right-row .container {
-        display: none;
-    }
-    .context-główna .right-row .hidden:hover {
-        display: none;
+    .context-główna {
+        .right-row {
+            .container {
+                display: none;
+            }
+            .hidden:hover {
+                display: none;
+            }
+        }
+        .left-row {
+            .container {
+                ul {
+                    width: 90%;
+                }
+            }
+        }
     }
 }
 
 @media screen and (max-width: 700px) {
-    .navbar a {
-        padding: 20px 14px;
+    .navbar {
+        a {
+            padding: 20px 14px;
+        }
     }
 }

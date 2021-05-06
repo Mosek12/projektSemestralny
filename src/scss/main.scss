@@ -56,6 +56,9 @@ body {
                 border: 5px hsla(0, 0%, 0%, 0.324) solid;
                 border-radius: 5px;
             }
+            .adm {
+                background-color: white;
+            }
         }
     }
     //lewa część
@@ -80,6 +83,17 @@ body {
             }
             p {
                 font-weight: 300;
+            }
+            ul {
+                font-weight: 300;
+                font-size: large;
+                list-style-type: circle;
+                list-style-position: inside;
+                backdrop-filter: blur(1px);
+                width: 33%;
+                padding: .5rem;
+                border-radius: 1rem;
+                line-height: 1.75rem;
             }
         }
     }
