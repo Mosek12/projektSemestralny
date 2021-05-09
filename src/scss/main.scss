@@ -107,7 +107,7 @@ body {
 }
 
 //kuchnia
-.context-kuchnia {
+.kuchnia {
     background: url(../../assets/images/DSC00525.JPG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,6 +118,53 @@ body {
         margin: 2rem;
         margin-top: 6rem;
         //rząd
+        .row {
+            display: flex;
+            margin-top: 2rem;
+            gap: 1rem;
+            float: right;
+            //kontener ogólnie
+            .container {
+                border-radius: 1rem;
+                box-shadow: 10px 0px 100px 0px hsla(0, 0%, 0%, 0.545);
+                background: hsla(0, 0%, 0%, 0.524);
+                backdrop-filter: blur(3px);
+                padding: 1rem;
+                font-size: x-large;
+                font-family: 'Roboto', sans-serif;
+                //tekst
+                h1 {
+                    font-family: 'Abel', sans-serif;
+                    font-weight: 600;
+                }
+                h3,
+                h2 {
+                    font-family: 'DM Mono', monospace;
+                    font-weight: 600;
+                }
+                p {
+                    font-weight: 300;
+                }
+                //obraz
+                img {
+                    height: 532px;
+                    border: 5px hsla(0, 0%, 0%, 0.324) solid;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+//informacje
+.informacje {
+    background: url(../../assets/images/DSC00525.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .context-informacje {
+        margin: 2rem;
+        margin-top: 6rem;
         .row {
             display: flex;
             margin-top: 2rem;
