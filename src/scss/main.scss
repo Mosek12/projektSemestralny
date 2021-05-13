@@ -112,8 +112,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
     .context-kuchnia2 {
         margin: 2rem;
         margin-top: 6rem;
@@ -122,8 +120,13 @@ body {
             display: flex;
             margin-top: 2rem;
             gap: 1rem;
-            float: right;
             //kontener ogólnie
+            .header {
+                width: 50%;
+            }
+            .text {
+                width: 50%;
+            }
             .container {
                 border-radius: 1rem;
                 box-shadow: 10px 0px 100px 0px hsla(0, 0%, 0%, 0.545);
@@ -135,13 +138,17 @@ body {
                 //tekst
                 h1 {
                     font-family: 'Abel', sans-serif;
+                    width: 40%;
                     font-weight: 600;
-                    text-align: right;
+                    text-align: left;
+                    border-bottom: hsla(0, 0%, 100%, 0.4) 2px solid;
                 }
                 h3,
                 h2 {
                     font-family: 'DM Mono', monospace;
+                    width: 80%;
                     font-weight: 600;
+                    border-bottom: hsla(0, 0%, 100%, 0.4) 2px solid;
                 }
                 p {
                     font-weight: 300;
@@ -151,6 +158,18 @@ body {
                     height: 532px;
                     border: 5px hsla(0, 0%, 0%, 0.324) solid;
                     border-radius: 5px;
+                }
+                //lista
+                ul {
+                    font-weight: 300;
+                    font-size: large;
+                }
+                ol {
+                    font-weight: 300;
+                    font-size: 17px;
+                    li {
+                        padding-top: 0.4rem;
+                    }
                 }
             }
         }
@@ -170,7 +189,6 @@ body {
             display: flex;
             margin-top: 2rem;
             gap: 1rem;
-            float: right;
             //kontener ogólnie
             .container {
                 border-radius: 1rem;
