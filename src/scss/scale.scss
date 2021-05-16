@@ -1,18 +1,13 @@
 @media screen and (max-width: 1200px) {
     .context-główna {
         .right-row {
-            .container {
-                display: none;
-            }
-            .hidden:hover {
-                display: none;
-            }
+            display: none;
         }
-        .left-row {
-            .container {
-                ul {
-                    width: 90%;
-                }
+    }
+    .left-row {
+        .container {
+            ul {
+                width: 90%;
             }
         }
     }
@@ -22,6 +17,33 @@
     .navbar {
         a {
             padding: 20px 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    .kuchnia {
+        .context-kuchnia {
+            .row {
+                flex-wrap: wrap;
+            }
+        }
+    }
+    .atrakcje {
+        .context-atrakcje {
+            .row {
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .informacje {
+        .context-informacje {
+            .row {
+                flex-wrap: wrap;
+            }
         }
     }
 }

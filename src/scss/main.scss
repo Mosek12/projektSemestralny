@@ -112,7 +112,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    .context-kuchnia2 {
+    .context-kuchnia {
         margin: 2rem;
         margin-top: 6rem;
         //rząd
@@ -170,6 +170,9 @@ body {
                     font-size: 17px;
                     li {
                         padding-top: 0.4rem;
+                        span {
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
@@ -179,11 +182,80 @@ body {
 
 //informacje
 .informacje {
-    background: url(../../assets/images/DSC00525.JPG);
+    background: url(../../assets/images/DSC08915.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     .context-informacje {
+        margin: 2rem;
+        margin-top: 6rem;
+        .row {
+            display: flex;
+            margin-top: 2rem;
+            gap: 1rem;
+            //kontener ogólnie
+            .container {
+                border-radius: 1rem;
+                box-shadow: 10px 0px 100px 0px hsla(0, 0%, 0%, 0.545);
+                background: hsla(0, 0%, 0%, 0.524);
+                backdrop-filter: blur(3px);
+                padding: 1rem;
+                font-size: x-large;
+                font-family: 'Roboto', sans-serif;
+                //tekst
+                h1 {
+                    font-family: 'Abel', sans-serif;
+                    font-weight: 600;
+                    width: 80%;
+                    border-bottom: hsla(0, 0%, 100%, 0.4) 2px solid;
+                }
+                h3,
+                h2 {
+                    font-family: 'DM Mono', monospace;
+                    width: 80%;
+                    font-weight: 600;
+                    border-bottom: hsla(0, 0%, 100%, 0.4) 2px solid;
+                }
+                p {
+                    font-weight: 300;
+                }
+                //obraz
+                img {
+                    height: 532px;
+                    border: 5px hsla(0, 0%, 0%, 0.324) solid;
+                    border-radius: 5px;
+                }
+                //tabela
+                table,
+                td,
+                th {
+                    border: 3px solid hsla(0, 0%, 100%, 0.336);
+                    border-collapse: collapse;
+                }
+                td,
+                th {
+                    padding: .30em;
+                    font-size: 2rem;
+                }
+                td {
+                    font-weight: 300;
+                }
+                th {
+                    font-weight: 400;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+//atrakcje
+.atrakcje {
+    background: url(../../assets/images/DSC08874.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .context-atrakcje {
         margin: 2rem;
         margin-top: 6rem;
         .row {
@@ -208,17 +280,28 @@ body {
                 h3,
                 h2 {
                     font-family: 'DM Mono', monospace;
+                    width: 80%;
                     font-weight: 600;
+                    border-bottom: hsla(0, 0%, 100%, 0.4) 2px solid;
                 }
                 p {
                     font-weight: 300;
                 }
                 //obraz
                 img {
-                    height: 532px;
+                    height: 475px;
                     border: 5px hsla(0, 0%, 0%, 0.324) solid;
                     border-radius: 5px;
                 }
+            }
+            .smaller {
+                img {
+                    height: 350px;
+                }
+            }
+            .ja {
+                height: 267px;
+                width: 620px;
             }
         }
     }
